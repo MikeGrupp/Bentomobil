@@ -1,0 +1,92 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 16px;
+    border: 0;
+    background-color: rgba(216, 145, 119);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .4);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    padding: 64px;
+    border: 0;
+    background-color: rgba(216, 145, 119);
+}
+
+body {
+    margin: 0;
+    background-color: rgba(230, 228, 211);
+    font-family: Noto Sans;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+button {
+    border: 1px solid rgba(191, 90, 89);
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: rgba(242, 196, 140);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .4);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 100px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(216, 145, 119);
+    width: 24px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(68, 79, 89);
+    border-radius: 100px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(68, 79, 89);
+}
+
+

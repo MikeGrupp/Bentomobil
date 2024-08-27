@@ -1,0 +1,145 @@
+@media screen and (max-width: 1040px) and (min-width: 721px) {
+    .dishcard_firstrow {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    body {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 720px) and (min-width: 481px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    .content_wrapper {
+        padding: 8px;
+    }
+
+    .restaurant_content {
+        padding: 16px 0px 16px 0px;
+    }
+
+    .dishcard_firstrow {
+        font-size: 16px;
+    }
+
+    .main_section {
+        width: 100%;
+        border: 0;
+    }
+
+    .food_types {
+        max-width: 100%;
+    }
+
+    .basket_wrapper {
+        display: none;
+    }
+
+    .outer_basket {
+        width: auto;
+    }
+
+    .show_basket {
+        display: inline-block;
+    }
+    
+    .text_site {
+        margin-left: 10%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    .logo_title {
+        height: 32px;
+    }
+
+    .icon_link {
+        height: 32px;
+    }
+
+    .content_wrapper {
+        padding: 8px;
+    }
+
+    .restaurant_content {
+        padding: 16px 0px 16px 0px;
+    }
+
+    .main_section {
+        width: 100%;
+        border: 0;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    .dishcard_firstrow {
+        font-size: 16px;
+    }
+
+    .food_types {
+        max-width: 100%;
+    }
+
+    .basket_wrapper {
+        display: none;
+    }
+
+    .outer_basket {
+        width: auto;
+    }
+
+    .show_basket {
+        display: inline-block;
+        position: fixed;
+        bottom: 16px;
+        left: calc(50% - 50px);
+        ;
+    }
+
+    .text_site {
+        margin-left: 10%;
+        width: 80%;
+    }
+}

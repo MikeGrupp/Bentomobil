@@ -1,0 +1,12 @@
+.logo_title {
+    height: 48px;
+}
+
+.icon_link {
+    height: 48px;
+}
+
+.icon_link:hover {
+    cursor: pointer;
+}
+

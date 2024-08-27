@@ -1,0 +1,157 @@
+.content_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    gap: 2px;
+    padding: 2px;
+}
+
+.main_section {
+    width: calc(100% - 308px);
+    border: 0;
+}
+
+.restaurant_content {
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.menu_section_img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .4);
+}
+
+.restaurant_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.food_types {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    overflow: auto;
+    max-width: 80vw;
+    padding: 0px 6px 6px 0px;
+}
+
+.food_type_button:hover {
+    transform: scale(1.05);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.dishcard {
+    border: 1px solid rgba(191, 90, 89);
+    border-radius: 8px;
+    padding: 8px;
+    background-color: rgba(242, 196, 140);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .4);
+}
+
+.dishcard:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.dishcard_firstrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+}
+
+.text_site {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.restaurant_logo {
+    border-radius: 100px;
+    height: 64px;
+    width: 64px;
+    object-fit: cover;
+}
+
+.restaurant_title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    top: -48px;
+    left: 48px;
+    width: fit-content;
+    background-color: rgba(216, 145, 119);
+    border: 1px solid rgba(191, 90, 89);
+    border-radius: 16px;
+    padding: 8px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .4);
+}
+
+.dialog-bg {
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog {
+    height: 50vh;
+    width: 50vw;
+    background-color: rgba(216, 145, 119);
+    border: 1px solid rgba(191, 90, 89);
+    border-radius: 10px;
+    padding: 24px;
+    overflow: auto;
+}
+
+.d-none {
+    display: none;
+}
+
+.order_sent_headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.rating img {
+    height: 24px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
